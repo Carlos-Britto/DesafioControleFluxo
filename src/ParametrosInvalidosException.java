@@ -1,2 +1,7 @@
-package PACKAGE_NAME;public class ParametrosInvalidosException {
+public class ParametrosInvalidosException extends RuntimeException{
+    public ParametrosInvalidosException(String msg){
+        super(msg);
+
+    }
+
 }
